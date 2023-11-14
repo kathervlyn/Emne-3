@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabeltilordning", "Variabeltilordning\Variabeltilordning.csproj", "{0F116BBD-63F8-43A9-9149-B4EB4B434DED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F116BBD-63F8-43A9-9149-B4EB4B434DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F116BBD-63F8-43A9-9149-B4EB4B434DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F116BBD-63F8-43A9-9149-B4EB4B434DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F116BBD-63F8-43A9-9149-B4EB4B434DED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36E46E0A-3991-4885-9B62-86A25BB722D9}
+	EndGlobalSection
+EndGlobal

@@ -42,6 +42,8 @@
         }
     }
 }
+//Kan bruke "While" for å forenkle det å gjøre koden en del mere ryddig, men er ikke så flink på det og er litt usikker på ossen. spør stian?
+
 //Oppgave: Gjett Tallet!
 
 //Lag et program hvor brukeren skal gjette et tilfeldig tall mellom 1-100

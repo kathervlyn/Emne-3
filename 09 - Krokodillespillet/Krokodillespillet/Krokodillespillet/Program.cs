@@ -18,25 +18,31 @@ namespace Krokodillespillet
                 int randomNumber1 = rand.Next(1, 11);
                 int randomNumber2 = rand.Next(1, 11);
                 Console.WriteLine(randomNumber1 + " _ " + randomNumber2);
-
-
+                Console.WriteLine("Poeng: " + Point);
                 Awnser = Console.ReadLine();
+
                 if ((Awnser == "<" && randomNumber1 < randomNumber2) || (Awnser == ">" && randomNumber1 > randomNumber2) || (Awnser == "=" && randomNumber1 == randomNumber2))
                 {
-                    Console.WriteLine("Rigtig !");
+                    Console.WriteLine("Riktig !");
                     Point++;
                 }
-                else
-                {
-                    Console.WriteLine("Feil !");
-                }
 
-                Console.WriteLine("Poeng: " + Point);
-                if (Awnser != "<" && Awnser != ">" && Awnser != "=")
+                else if (Awnser != "<" && Awnser != ">" && Awnser != "=")
                 {
                     Console.WriteLine("Du svarte feil, din poengsum er " + Point);
                     return;
                 }
+
+                else
+                {
+                    Point--;
+                    if (Point < 0)
+                    {
+                        Point = 0;
+                    }
+                    Console.WriteLine("Feil !");
+                }
+
 
                 //if (Point == 10)
                 //{
@@ -51,7 +57,6 @@ namespace Krokodillespillet
 
 //For hver runde skal det printes ut til skjermen et random tall mellom 1-11,
 //et mellomrom og et nytt tall mellom 1-11 med en underscore mellom slik at det ser sånn ut: 3 _ 5
-
 
 
 //Brukeren kan skrive inn <, > eller =

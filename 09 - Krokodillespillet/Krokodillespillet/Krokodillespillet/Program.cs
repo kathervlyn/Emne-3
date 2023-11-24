@@ -6,9 +6,9 @@ namespace Krokodillespillet
 {
     internal class Program
     {
-        static void Main()
+        private static void Main()
         {
-            Random rand = new Random();
+            Random rand = new();
             int Point = 0;
             string Awnser;
             Console.WriteLine("Use <, > or = ");

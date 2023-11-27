@@ -1,4 +1,4 @@
-﻿namespace Objekter_som_i_JavaScript
+﻿namespace Pokedex
 {
     internal class Program
     {
@@ -13,9 +13,9 @@
 
             var balbasaur = new Pokemon("Balbasaur", 12, 30);
             var pikachu = new Pokemon("Pikachu", 18, 20);
+            var testpokemon = new Pokemon("Drowzee");
 
             Console.WriteLine($"Du har funnet {balbasaur.Name} som er level {balbasaur.Level} og har {balbasaur.Health} HP, og {pikachu.Name} som er level {pikachu.Level} oh har {pikachu.Health} HP");
-
         }
     }
 }

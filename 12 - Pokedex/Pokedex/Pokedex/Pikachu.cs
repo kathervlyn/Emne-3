@@ -4,7 +4,7 @@
 //using System.Text;
 //using System.Threading.Tasks;
 
-//namespace Objekter_som_i_JavaScript
+//namespace Pokedex
 //{
 //    class Pikachu
 //    {

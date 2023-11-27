@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Objekter_som_i_JavaScript
+namespace Pokedex
 {
     internal class Pokemon
     {
@@ -12,11 +12,17 @@ namespace Objekter_som_i_JavaScript
         public int Level;
         public int Health;
 
+
         public Pokemon(string name, int level, int health)
         {
             Name = name;
             Level = level;
             Health = health;
+        }
+
+        public Pokemon(string name)
+        {
+            Name = name;
         }
     }
 }

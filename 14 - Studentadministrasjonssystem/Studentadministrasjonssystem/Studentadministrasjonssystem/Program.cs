@@ -106,13 +106,13 @@
 
 //Del 3: Ekstra funksjonalitet
 
-//    Legg til flere fag:
-//        Opprett en liste av fag og legg til minst tre forskjellige fag.
-//        Legg til disse fagene i Student - objektene som studentene tar.
+                                        //    Legg til flere fag:
+                                        //        Opprett en liste av fag og legg til minst tre forskjellige fag.
+                                        //        Legg til disse fagene i Student - objektene som studentene tar.
 
-//    Legg til karakterer:
-//        Legg til karakterer for studentene i de forskjellige fagene de tar.
-//        Skriv ut karakterinformasjonen.
+                                        //    Legg til karakterer:
+                                        //        Legg til karakterer for studentene i de forskjellige fagene de tar.
+                                        //        Skriv ut karakterinformasjonen.
 
 //    Gjennomsnittskarakter:
 //        Implementer en metode i Student - klassen som beregner gjennomsnittskarakteren for studenten basert på karakterene de har fått.

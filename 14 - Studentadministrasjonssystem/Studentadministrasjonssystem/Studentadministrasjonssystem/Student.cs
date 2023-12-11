@@ -36,5 +36,26 @@
             }
             return subjects;
         }
+
+        public double CalculateAverageGrade()
+        {
+            if (StudyProgram == null || StudyProgram.Count == 0)
+            {
+                Console.WriteLine($"{Name} has no grades to calculate an average.");
+                return 0.0;
+            }
+
+            double totalGradePoints = 0.0;
+
+            foreach (var subject in StudyProgram)
+            {
+                // Assuming Grades is an enum with integer values (0, 1, 2, 3, 4) for (F, D, C, B, A)
+                totalGradePoints += (int)subject.Grade; // Assuming each subject has a Grade property
+            }
+
+            double averageGrade = totalGradePoints / StudyProgram.Count;
+            Console.WriteLine($"{Name}'s average grade: {averageGrade:F2}");
+            return averageGrade;
+        }
     }
 }

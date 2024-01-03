@@ -91,7 +91,7 @@ namespace Social_Media
                             if (!users.Any(u => u.Name == friendName)) // lambda operatør
                             {
                                 Console.WriteLine("User does not exist");
-                                Console.ReadKey();
+                                Console.ReadKey(true);
                                 break;
                             }
                             User friendToAdd = users.Find(u => u.Name == friendName); // lambda operatør
